@@ -122,14 +122,18 @@ const getCidades =  function(siglaEstado){
     return retornoDoObjeto
 }
 
+module.exports = {
+    getListaDeEstados,
+    getDadosEstado,
+    getCapitalEstado,
+    getEstadosRegiao,
+    getCapitalPais,
+    getCidades
+}
+
 //console.log(getListaDeEstados())
-
 //console.log(getDadosEstado('SP'))
-
 //console.log(getCapitalEstado('AC'))
-
 //console.log(getEstadosRegiao('Sul'))
-
 //console.log(getCapitalPais())
-
 //console.log(getCidades('AC'))
